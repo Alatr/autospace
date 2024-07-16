@@ -1,8 +1,6 @@
-import Image from "next/image";
-import { add } from "@autospace/sample-lib";
+import Image from 'next/image';
+import { add } from '@autospace/sample-lib';
 
 export default function Home() {
-  return (
-    <div>{add(1,232)}</div>
-  );
+  return <div>{add(1, 232)}</div>;
 }
